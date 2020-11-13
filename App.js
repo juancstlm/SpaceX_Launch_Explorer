@@ -138,6 +138,7 @@ const App: () => React$Node = () => {
           style={styles.launchListContainer}
           data={launches}
           renderItem={renderLaunchListItem}
+          keyExtractor={(item) => item.flight_number.toString()}
           scrollEnabled={false}
         />
         {renderFAB()}
