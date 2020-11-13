@@ -1,4 +1,4 @@
-#SpaceX Launch Explorer
+# SpaceX Launch Explorer
 A simple React Native application that shows Space X launches by using the public Space X api. 
 
 
